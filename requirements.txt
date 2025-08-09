@@ -1,0 +1,8 @@
+transformers>=4.30.0
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4        # optional; if it fails on Windows, see fallback
+PyPDF2>=3.0.0
+numpy>=1.21
+scikit-learn>=1.2
+tqdm>=4.64
+torch>=2.0.0            # CPU or GPU depending on your system
